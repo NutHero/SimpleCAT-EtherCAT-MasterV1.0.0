@@ -1,0 +1,50 @@
+# ===== Visual Studio 缓存与用户配置 =====
+.vs/
+*.user
+*.suo
+*.sdf
+*.opendb
+*.VC.db
+
+# ===== 编译输出目录 =====
+x64/
+x86/
+Debug/
+Release/
+build_test/*.exe
+build_test/*.obj
+build_test/*.pdb
+build_test/*.ilk
+build_test/*.png
+build_test/*.bmp
+soem/x64/
+soem_io/x64/
+SimpleCAT/x64/
+
+# ===== 编译中间产物 =====
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.tlog
+*.log
+*.lastbuildstate
+*.cache
+*.res
+*.ipch
+
+# 保留 lib/ 下的预编译库（soem.lib / wpcap.lib / Packet.lib 运行必需）
+!lib/*.lib
+
+# ===== 运行时生成 =====
+SimpleCAT.ini
+
+# ===== AI 助手工作目录（不公开工作流与日志） =====
+.workbuddy/
+
+# ===== 系统文件 =====
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,15 @@
+# 默认按文本处理，仓库内统一用 LF 存储
+* text=auto
+
+# 预编译库：二进制，不做换行转换与文本 diff
+*.lib binary
+*.dll binary
+*.exe binary
+*.png binary
+*.bmp binary
+*.ico binary
+*.jpg binary
+
+# Windows 脚本保持 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
